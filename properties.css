@@ -1,0 +1,33 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    color: brown;
+    padding: 30px;
+    margin: 20px;
+
+}
+p{
+    line-height: 35px;
+}
+p.para{
+    line height: 20px;
+    text-indent: 100px;
+    word-spacing: 30;
+
+}
+
+h1::first-letter{
+    letter-spacing: 20px;
+    color: blueviolet;
+    text-shadow: 5px 10px 5px ; color: rgb(82, 85, 84);
+
+}
+h1 : hover{
+    
+    
+}
+
